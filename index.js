@@ -44,6 +44,10 @@ const bookList = document.querySelector('.book-list-container');
 const listBtn = document.querySelector('.listBtn');
 const formContainer = document.querySelector('.form-container');
 
+// display the  Contact section when click the button "Contact"
+const contactBtn = document.querySelector('.contact');
+const contactInfo = document.querySelector('.contact-info');
+
 listBtn.addEventListener('click', () => {
   bookList.style.display = 'block';
   formContainer.style.display = 'none';
@@ -64,10 +68,6 @@ addNewBtn.addEventListener('click', () => {
   formContainer.style.display = 'block';
   contactInfo.style.display = 'none';
 });
-
-// display the  Contact section when click the button "Contact"
-const contactBtn = document.querySelector('.contact');
-const contactInfo = document.querySelector('.contact-info');
 
 contactBtn.addEventListener('click', () => {
   bookList.style.display = 'none';
