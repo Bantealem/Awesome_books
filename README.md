@@ -11,7 +11,7 @@
 
 ## LIVE DEMO
 
-[Live Demo Link]('https://bantealem.github.io/awesome-books-ES6-/')
+[Live Demo Link](https://bantealem.github.io/awesome-books-ES6-/)
 
 ## Getting Started
 
