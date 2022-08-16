@@ -1,4 +1,5 @@
-import Store from "./store.js";
+import Store from './store.js';
+
 class UI {
   static displayBooks() {
     const books = Store.getBooks();

@@ -1,4 +1,3 @@
-
 // Store Class: Handles Storage
 class Store {
   static getBooks() {

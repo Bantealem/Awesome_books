@@ -1,7 +1,7 @@
-import { DateTime } from "./modules/luxon.js"
-import Book from "./modules/main.js";
-import Store from "./modules/store.js";
-import UI from "./modules/ui.js";
+import { DateTime } from './modules/luxon.js';
+import Book from './modules/main.js';
+import Store from './modules/store.js';
+import UI from './modules/ui.js';
 
 // Define the current local time
 const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
@@ -47,6 +47,7 @@ const formContainer = document.querySelector('.form-container');
 listBtn.addEventListener('click', () => {
   bookList.style.display = 'block';
   formContainer.style.display = 'none';
+  contactInfo.style.display = 'none';
 });
 
 window.addEventListener('load', () => {
