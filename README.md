@@ -17,7 +17,7 @@
 
 you can clone the repository by using the command below and run the "npm install" command to install the necessary tools
 
-[`https://github.com/Bantealem/awesome-books-ES6-.git']
+https://github.com/Bantealem/awesome-books-ES6-.git
 
 ### Setup
 
